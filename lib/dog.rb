@@ -1,6 +1,5 @@
-class Person
-# the class is Person
-# object initialization
+class Dog
+
   def initialize(name)
     @name = name
   end
@@ -11,5 +10,17 @@ class Person
 
   def name
     @name
+  end
+
+  def initialize(breed)
+    @breed = breed
+  end
+
+  def breed = breed 
+    @breed = breed
+  end
+
+  def breed
+    @breed
   end
 end
